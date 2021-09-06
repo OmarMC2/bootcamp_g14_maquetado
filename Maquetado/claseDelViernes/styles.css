@@ -1,0 +1,71 @@
+body{
+    background: #e6e6e6;
+}
+
+header section .page, footer{
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+
+header .logo-contenedor img{
+width: 50px;
+}
+
+header nav{
+    background: #528fd5; 
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    color: white;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.articles {
+    width: 70%;
+    float: left;
+    margin-right: 1.5%;
+}
+
+
+.articles article{
+    background: #fff;
+    padding 20px;
+    margin 10px 0;
+    margin-bottom: 10px;
+    margin-top: 50px;    
+}
+
+aside {
+    width: 28.5%;
+    float: left;
+    background: #ff8000;
+    border-radius: 5px 40px 20px 15px;
+}
+aside .sidebar {
+    color: #fff;
+
+}
+
+footer {
+    background: #000;
+    clear: both;
+}
+
+footer .footer-content {
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
