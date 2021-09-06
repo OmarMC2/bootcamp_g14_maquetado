@@ -66,17 +66,16 @@ main.main{
 .input-form label, input{
     display:block;
     width: 100%;
+    margin-top: 50px;
 }
-.input-form label{
-    font-size: 15px black;
-    margin-bottom: 8px;
-    text-align: center;
-}
+
 .titulo{
      border: 1px black;
      color: black;
      height: 30px;
      padding-left: 10px;
+     font-size: 15px;
+     font-family: 'Courier New', Courier, monospace;
     }
 
 }
