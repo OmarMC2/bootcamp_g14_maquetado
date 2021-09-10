@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -27,19 +29,19 @@
     <link rel="stylesheet" href="css/fontAwesome/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix México: Ve series online, ve películas online</title>
+    <title>Netflix</title>
 </head>
 
-<body class="body">
-    
-    <div class="bg">
-        <header> 
-            <nav class="nav-cont">
-                <div class="logo">
+<body>
+
+    <!-- Mostrar imagen de fondo -->
+    <div class="bg-wrapper">
+        <header>
+
+            <!-- navbar -->
+            <nav class="site-navigation">
+
+                <div class="logo-container">
                     <svg viewBox="0 0 111 30" class="svg-icon svg-icon-netflix-logo" focusable="false">
                         <g id="netflix-logo">
                             <path
@@ -48,49 +50,84 @@
                         </g>
                     </svg>
                 </div>
-                <div class="buttons"> 
-                    <a href="#" class="red-button">Iniciar sesión</a>
-                    <a href="#" class="l-button"> 
-                        <i class="fas fa-globe header-icon"></i> Español
 
-                        <i class="fas fa-caret-down header-icon"></i>  
-                    </a>
-                </div>
-            </nav> 
-        </header>   
+
+                <ul class="links-container">
+                    <li>
+                        <a href="" class="language-button">
+                            <i class="fas fa-globe header-icon"></i> Espa&ntilde;ol
+
+                            <i class="fas fa-caret-down header-icon"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="red-button button-login">
+                            Iniciar Sesi&oacute;n
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+            <!-- navbar -->
+        </header>
+
+        <!-- texto de bienvenida -->
         <div class="sign-container">
-            <main>  
-                <div class="letras-principales">
-                    <h1 class="título">Películas y series ilimitadas y mucho más.</h1>
-                    <h2 class="subtítulo">Disfruta donde quieras. Cancela cuando quieras.</h2>
-                    <h3 class="texto">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3>
-                
+            <main>
+                <div class="hero-container">
+                    <h1 class="hero-title">
+                        Películas y series ilimitadas y mucho más.
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        Disfruta donde quieras. Cancela cuando quieras.
+                    </h2>
+
+                    <h3 class="hero-text">
+                        ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
+
+                    </h3>
+
 
                     <div class="sign-in-container">
                         <form action="#">
                             <input type="email" class="sign-input" placeholder="Email">
-                                <button type="submit" class="sign-in-button">
-                                    <span>Comenzar <i class="fas fa-chevron-right"></i></span>
-                                </button>
+                            <button type="submit" class="sign-in-button">
+                                <span>Comenzar <i class="fas fa-chevron-right"></i></span>
+
+                            </button>
                         </form>
                     </div>
+
+
                 </div>
             </main>
         </div>
-    </div>
-    <div class="separador"></div>
 
+    </div>
+
+    <div class="separator"></div>
+
+    <!-- Termina imagen de fondo -->
+
+    <!-- Iniciar secciones de fila -->
     <div class="content">
+
         <section class="row-section">
             <article>
-                <div class="article-sec">
-                    <h2 class="sc-title">Disfruta en tu TV.</h2> 
-                    <h4 class="sc-txt">Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</h4>                   
+                <div class="article-text">
+                    <h2 class="section-title">Disfruta en tu TV.</h2>
+                    <h4 class="section-desc">
+                        Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.
+                    </h4>
                 </div>
-                <div class="img-artcl">
-                    <div class="card-anim-cont">
-                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="ver en la tv" class="our-story-card-img"">
-                        <div class="story-card-video" >
+
+                <!-- imagen del articulo -->
+                <div class="article-img our-story-card-img-container">
+                    <div class="our-story-card-animation-container">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="ver en la tv" class="our-story-card-img">
+                        <div class="our-story-card-animation">
                             <video class="our-story-card-video" autoplay="" playsinline="" muted="" loop="">
                                 <source
                                     src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
@@ -99,28 +136,73 @@
                         </div>
                     </div>
                 </div>
+
             </article>
         </section>
+
         <div class="separator"></div>
+
         <section class="row-section">
             <article>
-                <div>
-                    <div>
-                        <img src="" alt="">
-                        <div>
-                            <div>
-                                <img src="" alt="">
+
+                <div class="article-img our-story-card-img-container mobile-img-container">
+                    <div class="our-story-card-animation-container">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="ver en la tv" class="mobile-img downloadAndWatch">
+                        <div class="our-story-card-animation-image downloadAndWatch ">
+                            <div class="our-story-card-animation-image">
+                                <img alt="" class="mini-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png">
                             </div>
-                            <div>
-                                <div></div>
-                                <div></div>
+                            <div class="our-story-card-animation-text">
+                                <div id="" class="text-0" data-uia="">Stranger Things</div>
+                                <div id="" class="text-1" data-uia="">Descargando...</div>
                             </div>
-                            <img src="" alt="">
+                            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" alt="loading icon" class="loading-icon">
                         </div>
+
+
                     </div>
+                </div>
+
+                <div class="article-text mobile-title">
+                    <h2 class="section-title ">Descarga tus series para verlas offline.</h2>
+                    <h4 class="section-desc">
+                        Guarda tu contenido favorito y ten siempre algo para ver.
+                    </h4>
                 </div>
             </article>
         </section>
+
+        <div class="separator"></div>
+
+        <section class="row-section">
+            <article>
+                <div class="article-text">
+                    <h2 class="section-title">
+                        Disfruta donde quieras.
+                    </h2>
+                    <h4 class="section-desc">
+                        Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin costo extra.
+                    </h4>
+                </div>
+
+                <div class="article-img our-story-card-img-container">
+                    <div class="our-story-card-animation-container">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="ver en la tv" class="our-story-card-img">
+                        <div class="our-story-card-animation watchOnDevice">
+                            <video class="our-story-card-video" autoplay="" playsinline="" muted="" loop="">
+                                <source
+                                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+                                    type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
     </div>
+
 </body>
+
 </html>

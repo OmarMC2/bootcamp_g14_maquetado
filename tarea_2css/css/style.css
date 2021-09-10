@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-color: #000;
+    color: #333;
+    font-size: 16px;
+    font-family: 'Netflix Sans Regular', sans-serif;
+    
+}
+.bg {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/18ac9873-558c-49b8-8ae5-eb42c9da346a/MX-es-20210823-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    min-height: 60vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+    
+.bg-wrapper::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.4);
+        box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+
+}
+.nav-cont {
+    display: flex;
+    margin: 30px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color: transparent;
+}
+.logo {
+    display: flex
+    
+}
+
+.svg-icon-netflix-logo {
+    fill: #e50914;
+    width: 130px;
+    z-index: 2;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.red-button {
+    background-color: red;
+    font-size: medium;
+    color:white;
+    border-radius: 7%;
+    padding: 15px;
+    margin: 15px;
+}
+.l-button {
+    background-color: black;
+    font-size: medium;
+    color:white;
+    border-radius: 7%;
+    padding: 15px;
+    margin: 15px;
+}
+.letras-principales {
+    position: relative;
+    width: 100%;
+    padding: 75px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+}
+.título {
+    font-size: 4.0rem;
+    line-height: 1.1;
+    margin: 0 auto;
+    max-width: 70%;
+}
+.subtítulo {
+    font-size: 2.0rem;
+    font-weight: 400;
+    margin: 1rem auto;
+    max-width: 70%;
+}
+
+.texo {
+    font-weight: 400;
+    max-width: none;
+    padding-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+.sign-in-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sign-in-container form {
+    display: inherit;
+}
+input.sign-input {
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    height: 70px;
+    min-width: 1000px;
+    padding: 12px 32px;
+    font-size: 28px;
+}
+
+button.sign-in-button {
+    color: #fff;
+    background-color: #e50914;
+    height: 70px;
+    min-width: 200px;
+    font-weight: 500;
+    padding: 0 2rem;
+    border-radius: 0 3px 3px 0;
+    box-shadow: none;
+    border: none;
+    z-index: 5;
+    line-height: 30px;
+}
+
+button.sign-in-button span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button.sign-in-button span i {
+    font-size: 14px;
+}
+
