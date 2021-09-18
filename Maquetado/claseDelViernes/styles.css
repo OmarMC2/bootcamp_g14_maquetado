@@ -1,71 +1,117 @@
 body{
     background: #e6e6e6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header section .page, footer{
-    width: 90%;
-    margin: 20px auto;
-    max-width: 1000px;
+.main{
+    display: flex;
+    flex-direction: row;
+
 }
 
-
-header .logo-contenedor img{
-width: 50px;
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dodgerblue;
+    flex-direction: row;
+    min-height:70px;
+    border-radius: 40px;
+}
+.logo-contenedor {
+    min-width: 50px;
+    max-width: 50px; 
+    margin-left: 10px;
+}
+.enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 20%;
+    font-size: 18px;
+    margin-right: 20px;
+    font-style: normal;
 }
 
-header nav{
-    background: #528fd5; 
-    overflow: hidden;
-}
-
-header nav ul {
-    list-style: none;
-}
-
-header nav ul li {
-    float: left;
-}
-
-header nav ul li a {
-    color: white;
-    display: block;
-    padding: 5px 15px;
-    text-decoration: none;
-}
 
 .articles {
     width: 70%;
-    float: left;
-    margin-right: 1.5%;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    flex-direction: column;
+    
 }
+
 
 
 .articles article{
-    background: #fff;
-    padding 20px;
-    margin 10px 0;
-    margin-bottom: 10px;
-    margin-top: 50px;    
+    background: white;
+    margin-bottom: 5px;
+    margin-top: 5px;    
+    flex-wrap: wrap;
+    border-radius: 20px;
 }
 
-aside {
+.aside {
     width: 28.5%;
-    float: left;
-    background: #ff8000;
-    border-radius: 5px 40px 20px 15px;
+    display: flex;
+flex-direction: column;
+    border-radius: 40px 40px 40px 40px;
+    position: 50%-100%;
+    
 }
 aside .sidebar {
+    display: flex;
     color: #fff;
+    background: #ff8000;
+    border-radius: 40px 40px 40px 40px;
+    align-items: center ;
+    justify-content: center;
 
+}
+.article-sb {
+    display: flex;
+    background: white;
+    margin-bottom: 5px;
+    margin-top: 5px;    
+    flex-wrap: wrap;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h2sidebar{
+    display: flex;
 }
 
 footer {
-    background: #000;
     clear: both;
+    box-sizing: border-box;
 }
-
-footer .footer-content {
+ .footer-content {
     color: white;
     text-align: center;
     padding: 5px;
+    background-color: black;
+    border-radius: 40px;
+    justify-content: center;
 }
+.contenedor-tabla{
+    display: flex;
+    flex-direction: row;    
+    background-color: #e6e6e6;
+    justify-content: center;
+    box-shadow: 10px;
+   
+}
+.tabla{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    flex-wrap: wrap;
+    justify-content: center;
+   }

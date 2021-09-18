@@ -1,0 +1,38 @@
+.row {
+    background-color: white;
+    color: gray;
+    flex-wrap:wrap;
+    
+    
+}
+.container {
+    background-color: white;
+    
+}
+
+.xd{
+    background-color: indigo;
+    color: #ededed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 2%;
+        
+
+}
+.xp {
+    background-color: #ededed;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 2%;
+   
+
+}
+.xp3{
+    background-color: #ededed;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 2%;
+}
+
+.clasecustom{
+    margin: 5px;
+}
