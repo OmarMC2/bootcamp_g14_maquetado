@@ -1,36 +1,55 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+body{
+    background-color: black;
+}
+h1{
+    color: #39ff14;
+}
+.bgnavbar{
+    background-color: #39ff14;
+}
+.navbar, .navbar-expand-lg,.navbar-light{
+    background-color: #39ff14;
+}
+
+
 .row {
-    background-color: white;
+    background-color: black;
     color: gray;
     flex-wrap:wrap;
     
     
 }
 .container {
-    background-color: white;
+    background-color: black;
     
 }
-
-.xd{
-    background-color: indigo;
-    color: #ededed;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.xd, .xp, .xp3 {
     border-radius: 2%;
+    width: 100%;
+    height:100%;
+    padding: 20px;
+}
+.xd{
+    background-color: #39ff14;
+    color: black;
+    
         
 
 }
 .xp {
     background-color: #ededed;
-    color: gray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 2%;
-   
+    color: black;
 
 }
 .xp3{
     background-color: #ededed;
-    color: gray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 2%;
+    color: black;
+    
+
 }
 
 .clasecustom{
