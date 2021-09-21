@@ -1,37 +1,51 @@
+
+body {
+    background-color: black;
+}
+.navbar,.navbar-expand-lg, .navbar-light, .bgnavc{
+    background-color: #39ff14;
+}
+.bgc{
+    background-color: black;
+}
+
 .row {
-    background-color: white;
-    color: gray;
+    background-color: black;
+   
     flex-wrap:wrap;
     
     
 }
 .container {
-    background-color: white;
+    background-color: black;
     
 }
-
-.xd{
-    background-color: indigo;
-    color: #ededed;
+h1{
+    color: #39ff14 ;
+}
+.btn{
+    background-color: #39ff14;
+}
+.xd, .xp, .xp3{
+    
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 2%;
+    margin: 20px;
+    padding: 20px;   
         
 
 }
-.xp {
-    background-color: #ededed;
-    color: gray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 2%;
-   
+.xd{
+    background-color: #39ff14;
+}
+.xp, .xp3 {
+        color: #39ff14;
+border:solid #39ff14;
+border-radius: 4%;   
 
 }
-.xp3{
-    background-color: #ededed;
-    color: gray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 2%;
-}
+
 
 .clasecustom{
     margin: 5px;

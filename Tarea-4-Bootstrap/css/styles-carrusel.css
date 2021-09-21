@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+}
+.navbar,.navbar-expand-lg, .navbar-light, .bgnavc{
+    background-color: #39ff14;
+}
+h1{
+    color: #39ff14 ;
+}
